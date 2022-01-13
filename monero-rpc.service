@@ -1,0 +1,12 @@
+[Unit]
+Description=Monero shallwe service
+After=network.target
+
+[Service]
+#to modify, update your own dir and file path
+WorkingDirectory=/usr/local/monero
+ExecStart=/usr/local/monero/monero-wallet-rpc --config-file=shallwe.config
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
