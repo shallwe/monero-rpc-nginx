@@ -2,7 +2,7 @@
 How to configure monero-rpc 
 
 ## Setup wallet-rpc.service
-monero wallet can run client rpc by  `monero-wallet-rpc`, and listen to a port, like 10000, then you can use http to operate wallet and xmr coin with `http://localhost:10000/json_rpc`, doc in [doc][json_rpc] .
+monero wallet(XMR) can run client rpc by  `monero-wallet-rpc`, and listen to a port, like 10000, then you can use http to operate wallet and xmr coin with `http://localhost:10000/json_rpc`, doc in [doc][json_rpc] .
 
 For security, you need to config login password, you should specify password in rpc-login and in monero-rpc.conf 
 
